@@ -1,69 +1,68 @@
-# Welcome to your Lovable project
+Gen AI Trip Planner
+Welcome to the Gen AI Trip Planner, an AI-powered platform designed to create personalized travel itineraries. Whether you’re planning a weekend getaway or a cross-continental journey, this tool leverages generative AI to optimize your trip experience.
 
-## Project info
+Features
+Custom Itineraries: Generate tailored travel schedules based on preferences like destinations, budget, and activities.
+AI-Powered Suggestions: Smart recommendations for hotels, attractions, restaurants, and transport options.
+Multi-Project API Integration: Use a single API key to manage multiple projects or trip planning modules.
+Secure and Scalable: Ensures data security and supports handling large user bases.
+Getting Started
+Prerequisites
+Programming Language: Primarily JavaScript or Python (customizable per your stack).
+API Key: Obtain a Gemini API key for project integration. Ensure that it has the necessary permissions.
+Installation
+Clone the repository:
 
-**URL**: https://lovable.dev/projects/ef1cba91-6d6f-4652-87cf-9f5ce351e03d
+bash
+Copy code
+git clone https://github.com/username/gen-ai-trip-planner.git  
+cd gen-ai-trip-planner  
+Install dependencies:
 
-## How can I edit this code?
+bash
+Copy code
+npm install   # For Node.js projects  
+or  
+pip install -r requirements.txt  # For Python projects  
+Configure your .env file:
 
-There are several ways of editing your application.
+env
+Copy code
+GEMINI_API_KEY=your_api_key_here  
+Usage
+Start the application:
 
-**Use Lovable**
+bash
+Copy code
+npm start   # For Node.js projects  
+or  
+python app.py  # For Python projects  
+Open the app in your browser at http://localhost:3000.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ef1cba91-6d6f-4652-87cf-9f5ce351e03d) and start prompting.
+Input travel preferences, and let the AI generate a customized trip plan.
 
-Changes made via Lovable will be committed automatically to this repo.
+API Integration
+This project uses the Gemini API for generating travel plans. Ensure you adhere to:
 
-**Use your preferred IDE**
+API rate limits
+Secure storage of the API key (use environment variables)
+Proper handling of errors and exceptions
+Project Structure
+plaintext
+Copy code
+gen-ai-trip-planner/  
+├── src/  
+│   ├── components/       # Reusable UI components  
+│   ├── services/         # API service integrations  
+│   ├── pages/            # Core pages (home, planner, etc.)  
+├── public/               # Static assets  
+├── .env                  # Environment variables  
+├── README.md             # Project documentation  
+├── package.json          # Dependencies and scripts (Node.js)  
+└── requirements.txt      # Dependencies (Python)  
+Contribution
+We welcome contributions! To contribute:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ef1cba91-6d6f-4652-87cf-9f5ce351e03d) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Fork the repository.
+Create a feature branch.
+Submit a pull request with your changes.
