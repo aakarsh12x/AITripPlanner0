@@ -66,3 +66,9 @@ We welcome contributions! To contribute:
 Fork the repository.
 Create a feature branch.
 Submit a pull request with your changes.
+
+![Screenshot (206)](https://github.com/user-attachments/assets/706dc54d-ca9a-466d-aa27-391c4a5ab4d0)
+![Screenshot (241)](https://github.com/user-attachments/assets/e445be18-cd3b-4eab-a418-adc3680371bc)
+![Screenshot (244)](https://github.com/user-attachments/assets/215028d7-c598-4366-93e2-3c86a3fd96f6)
+
+
